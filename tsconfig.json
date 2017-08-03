@@ -1,0 +1,6 @@
+{
+  "compileOptions": {
+    "sourceMap": true,
+    "target": "es5"
+  }
+}
