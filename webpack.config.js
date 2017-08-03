@@ -11,11 +11,11 @@ module.exports = {
   module: {
     // Loaderの設定
     rules: [
-      // CSSファイルの読み込み
+      // Sassファイルの読み込み
       {
         // 対象となるファイルの拡張子
-        test: /\.css/,
-        loaders: ['style-loader', 'css-loader']
+        test: /\.scss/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
       },
     ]
   }
